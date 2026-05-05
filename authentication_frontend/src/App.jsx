@@ -6,7 +6,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Navbar from "./components/Navbar";
 const App = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "blue" }}>
       <Navbar />
       <Routes>
         <Route
